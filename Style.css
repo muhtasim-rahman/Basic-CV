@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}    
+body{
+    background-color: rgb(235, 235, 235);
+    
+}
+.container{
+    padding: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: rgb(218, 253, 253);
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.container header img{
+    height: 100px;
+    width: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-text{
+    padding: 30px;
+    padding-top: 20px;
+    float: left;
+}
+
+
+.contact p a{
+    padding-left: 20px;
+    padding-top: 20px;
+    float: right;
+    font-weight: bold;
+    color: #11999e;
+    text-decoration: none;
+}
+.contact p a:hover{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 16.5px;
+    float: right;
+    font-weight: bold;
+    color: #11999e;
+    text-decoration: underline;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: black 3px solid;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+p{
+    text-align: justify;
+}
+/*-----------------------
+Personal Section (Start) 
+-------------------------*/
+.content{
+    margin: 30px;
+}
+
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: right;
+}
+.div-clear{
+    clear: both;
+}
+.common-hr{
+    border: black 1px solid;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+#Employment-History ul li, #Education ul li{
+    list-style: none;
+}
+
+#Skill-table thead tr th{
+    border: 2px solid #11999e;
+    font-weight: bold;
+    padding-left: 5px;
+}
+#Skill-table tbody tr td{
+    border: 2px solid #11999e;
+    font-weight: bold;
+    text-align: center;
+}
+#Skill-table{
+    width: 200px;
+    height: 85px;
+    border-collapse: collapse;
+}
+
+#edu-div-left{
+    height: 100%;
+    width: 45%;
+    float: left;
+
+}
+#edu-div-right{
+    height: 100%;
+    width: 55%;
+    float: right;
+
+}
+.edu-list-style{
+    color: #11999e;
+    font-weight: bold;
+}
+
+
+#bottom-container{
+    height: 75px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#bottom-container img{
+    height: 15px;
+    width: 15px;
+    color: white;
+}
+#bottom-container a{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+#bottom-container a:hover{
+    color: white;
+    font-weight: bold;
+    border: white 1px solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 25px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+}
+
+#bottom-container p{
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+.Copyright{
+    color: red;
+    font-size: 21px;
+}
